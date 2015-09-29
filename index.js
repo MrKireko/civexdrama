@@ -10,4 +10,8 @@ console.log(diffDays);
 
 $(document).ready(function(){
     $("#days").html(diffDays);
+    
+    if (diffDays != 1){
+        $("#s").html("s");
+    }
 });
