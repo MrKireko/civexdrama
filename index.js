@@ -1,5 +1,5 @@
 var oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
-var lastDrama = new Date("2015-10-27T22:53:25.000Z");
+var lastDrama = new Date("2016-02-16T06:11:10.000Z");
 var today = new Date();
 
 var diffDays = Math.floor(Math.abs((lastDrama.getTime() - today.getTime())/(oneDay)));
